@@ -10,13 +10,21 @@ export const theme = extendTheme({
   },
   fonts: {
     body: `"Source Sans", sans-serif`,
-    logo: `"Spline Sans", sans-serif`,
+    spline: `"Spline Sans", sans-serif`,
     playfair: `"Playfair Display", sans-serif`,
   },
   colors: {
     buttonAndTextColor: "#A93B59",
     mainText: "#F5EBEB",
     landingColor: "#B96A7F",
+  },
+  styles: {
+    global: {
+      body: {
+        bg: "black",
+        color: "mainText",
+      },
+    },
   },
 });
 
