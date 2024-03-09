@@ -14,7 +14,7 @@ import {
 import { RxHamburgerMenu } from "react-icons/rx";
 import { useState } from "react";
 import { NavBar } from "../components/NavBar/NavBar";
-import { headerItems } from "../listItem/headerItems";
+import { headerItems } from "../helpers/listItems";
 
 const BurgerMenu = () => {
   const [isOpen, setIsOpen] = useState(false);

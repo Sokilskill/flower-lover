@@ -1,7 +1,7 @@
 import { Container, useBreakpointValue } from "@chakra-ui/react";
 import { NavBar } from "../NavBar/NavBar";
 
-import { headerItems } from "../../listItem/headerItems";
+import { headerItems } from "../../helpers/listItems";
 import { Logo } from "../Logo/Logo";
 import { MobMenu } from "./MobMenu/MobMenu";
 
