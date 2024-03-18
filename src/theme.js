@@ -18,6 +18,14 @@ export const mytheme = extendTheme({
     mainText: "#F5EBEB",
     landingColor: "#B96A7F",
   },
+  components: {
+    Container: {
+      baseStyle: {
+        maxW: "100%",
+        px: { base: "33px", lg: "72px" },
+      },
+    },
+  },
   styles: {
     global: {
       body: {
