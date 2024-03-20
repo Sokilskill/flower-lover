@@ -1,5 +1,4 @@
 import {
-  Box,
   Center,
   Drawer,
   DrawerBody,
@@ -7,14 +6,12 @@ import {
   DrawerContent,
   DrawerHeader,
   DrawerOverlay,
-  Flex,
   IconButton,
-  Text,
 } from "@chakra-ui/react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { useState } from "react";
-import { NavBar } from "../components/NavBar/NavBar";
-import { headerItems } from "../helpers/listItems";
+import { headerItems } from "../../helpers/listItems";
+import { NavBar } from "../NavBar/NavBar";
 
 const BurgerMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
