@@ -1,6 +1,6 @@
 import { Flex, Link, ListItem, List } from "@chakra-ui/react";
 
-export function NavBar({ listItems, ...rest }) {
+export function NavBar({ listItems, linkStyle, ...rest }) {
   return (
     <Flex as="nav" alignItems="center">
       <List display={"flex"} gap={"32px"} flexDirection={"row"} {...rest}>
@@ -8,9 +8,9 @@ export function NavBar({ listItems, ...rest }) {
           <ListItem key={index}>
             <Link
               href={item.to}
-              fontFamily={"source"}
               fontSize="20px"
               lineHeight={1.25}
+              {...linkStyle}
             >
               {item.text}
             </Link>
