@@ -1,13 +1,4 @@
-import {
-  Box,
-  Button,
-  Heading,
-  Icon,
-  List,
-  Show,
-  Text,
-  VStack,
-} from "@chakra-ui/react";
+import { Box, Heading, Icon, List, Show, Text, VStack } from "@chakra-ui/react";
 
 import { GiShutRose } from "react-icons/gi";
 import { PiMapPinLine } from "react-icons/pi";
@@ -22,7 +13,7 @@ export function SectionHero() {
     <Box
       as="section"
       pt={{ base: "374px", lg: "70px" }}
-      pb={{ base: "96px", lg: "94px" }}
+      pb={{ base: "96px", lg: "50px" }}
       // background: bg-color bg-image bg-position/bg-size bg-repeat bg-origin bg-clip bg-attachment initial|inherit|unset;
       bg={{
         base: `url(${heroMobBgImg}) 24px top no-repeat`,
