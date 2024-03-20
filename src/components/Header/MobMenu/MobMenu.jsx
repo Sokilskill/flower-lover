@@ -1,6 +1,6 @@
 import { Flex, IconButton } from "@chakra-ui/react";
 import { FiSearch } from "react-icons/fi";
-import BurgerMenu from "../../../BurgerButton/BurgerMenu";
+import BurgerMenu from "../../BurgerMenu/BurgerMenu";
 
 export function MobMenu() {
   return (
