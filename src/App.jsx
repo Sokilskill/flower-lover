@@ -1,13 +1,9 @@
+import Header from "./components/Header/Header";
+
 function App() {
   return (
     <>
-      <img
-        src="/src/assets/images/logo.svg"
-        alt="logo"
-        width="200"
-        height="200"
-      />
-      ;
+      <Header />
     </>
   );
 }
