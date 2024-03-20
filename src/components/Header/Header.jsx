@@ -12,13 +12,13 @@ export default function Header() {
   });
 
   return (
-    <header>
+    <header id="header">
       <Container
         display="flex"
         justifyContent={"space-between"}
-        alignContent="center"
-        px={{ base: "33px", lg: "72px" }}
-        maxW="100%"
+        alignItems="center"
+        pt="24px"
+        pb={{ base: 0, lg: "24px" }}
       >
         <Logo />
         {isDesktop ? <NavBar listItems={headerItems} /> : <MobMenu />}
