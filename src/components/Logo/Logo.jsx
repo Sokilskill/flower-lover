@@ -1,9 +1,10 @@
-import { Image, Link, Text } from "@chakra-ui/react";
-import logo from "../../assets/images/logo.svg";
+import { Box, Image, Text } from "@chakra-ui/react";
+import logo from "assets/images/logo.svg";
 
 export function Logo({ ...rest }) {
   return (
-    <Link
+    <Box
+      as="a"
       href="/"
       display={"flex"}
       flexDirection={"column"}
@@ -21,6 +22,6 @@ export function Logo({ ...rest }) {
       <Text fontFamily={"spline"} lineHeight={1.19} textTransform={"uppercase"}>
         FlowerLover
       </Text>
-    </Link>
+    </Box>
   );
 }
