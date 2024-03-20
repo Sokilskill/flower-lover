@@ -1,4 +1,5 @@
 import { Image, Link, Text } from "@chakra-ui/react";
+import logo from "../../assets/images/logo.svg";
 
 export function Logo({ ...rest }) {
   return (
@@ -11,7 +12,7 @@ export function Logo({ ...rest }) {
       {...rest}
     >
       <Image
-        src="src/assets/images/logo.svg"
+        src={logo}
         fallbackSrc="https://via.placeholder.com/150"
         alt="logo"
         width={42}
