@@ -49,11 +49,7 @@
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: 400;
-  src: url("/fonts/playfair-display/playfair-display-v37-cyrillic-regular.eot"); /* IE9 Compat Modes */
-  src: url("/fonts/playfair-display/playfair-display-v37-cyrillic-regular.eot?#iefix")
-      format("embedded-opentype"),
-    /* IE6-IE8 */
-      url("/fonts/playfair-display/playfair-display-v37-cyrillic-regular.woff2")
+  src: url("/fonts/playfair-display/playfair-display-v37-cyrillic-regular.woff2")
       format("woff2"),
     /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
       url("/fonts/playfair-display/playfair-display-v37-cyrillic-regular.woff")
@@ -71,11 +67,7 @@
   font-family: "Playfair Display";
   font-style: italic;
   font-weight: 500;
-  src: url("/fonts/playfair-display/playfair-display-v37-cyrillic-500italic.eot"); /* IE9 Compat Modes */
-  src: url("/fonts/playfair-display/playfair-display-v37-cyrillic-500italic.eot?#iefix")
-      format("embedded-opentype"),
-    /* IE6-IE8 */
-      url("/fonts/playfair-display/playfair-display-v37-cyrillic-500italic.woff2")
+  src: url("/fonts/playfair-display/playfair-display-v37-cyrillic-500italic.woff2")
       format("woff2"),
     /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
       url("/fonts/playfair-display/playfair-display-v37-cyrillic-500italic.woff")
@@ -93,11 +85,7 @@
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: 600;
-  src: url("/fonts/playfair-display/playfair-display-v37-cyrillic-600.eot"); /* IE9 Compat Modes */
-  src: url("/fonts/playfair-display/playfair-display-v37-cyrillic-600.eot?#iefix")
-      format("embedded-opentype"),
-    /* IE6-IE8 */
-      url("/fonts/playfair-display/playfair-display-v37-cyrillic-600.woff2")
+  src: url("/fonts/playfair-display/playfair-display-v37-cyrillic-600.woff2")
       format("woff2"),
     /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
       url("/fonts/playfair-display/playfair-display-v37-cyrillic-600.woff")
@@ -116,15 +104,9 @@
   font-family: "Spline Sans";
   font-style: normal;
   font-weight: 400;
-  src: url("/fonts/spline-sans/spline-sans-v10-latin-regular.eot"); /* IE9 Compat Modes */
-  src: url("/fonts/spline-sans/spline-sans-v10-latin-regular.eot?#iefix")
-      format("embedded-opentype"),
-    /* IE6-IE8 */ url("/fonts/spline-sans/spline-sans-v10-latin-regular.woff2")
+  src: url("/fonts/spline-sans/spline-sans-v10-latin-regular.woff2")
       format("woff2"),
     /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-      url("/fonts/spline-sans/spline-sans-v10-latin-regular.woff")
-      format("woff"),
-    /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
       url("/fonts/spline-sans/spline-sans-v10-latin-regular.ttf")
       format("truetype"),
     /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
