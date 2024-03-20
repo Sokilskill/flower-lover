@@ -15,7 +15,7 @@ import { IoEarthOutline } from "react-icons/io5";
 
 import heroMobBgImg from "assets/images/hero-mobile.png";
 import heroDeskBgImg from "assets/images/hero-desk.png";
-import elipseImg from "assets/images/ellipse.png";
+import circleImg from "assets/images/circle.png";
 
 export function SectionHero() {
   return (
@@ -26,7 +26,7 @@ export function SectionHero() {
       // background: bg-color bg-image bg-position/bg-size bg-repeat bg-origin bg-clip bg-attachment initial|inherit|unset;
       bg={{
         base: `url(${heroMobBgImg}) 24px top no-repeat`,
-        lg: `url(${heroDeskBgImg}) 100% 100px / 768px 640px no-repeat , url(${elipseImg}) calc(100% - 328px) 272px / 486px 482px no-repeat`,
+        lg: `url(${heroDeskBgImg}) 100% 100px / 768px 640px no-repeat , url(${circleImg}) calc(100% - 328px) 272px / 486px 482px no-repeat`,
       }}
     >
       <VStack
