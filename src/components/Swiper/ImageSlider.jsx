@@ -1,16 +1,38 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Image } from "@chakra-ui/react";
-import "swiper/css/bundle";
+import { EffectCoverflow, Navigation } from "swiper/modules";
+
+import "swiper/css";
+import "swiper/css/navigation";
 
 export function ImageSlider({ images }) {
   return (
     <Swiper
       id="swiper-1"
-      slidesPerView={"3"}
-      spaceBetween="-32px"
+      effect={"coverflow"}
+      grabCursor={true}
+      slidesPerView="auto"
       centeredSlides={true}
       loop={true}
-      style={{ width: "516px", height: "264px" }}
+      // navigation={true}
+      breakpoints={{
+        // when window width is >= 320px
+        320: {
+          spaceBetween: -32,
+        },
+        // when window width is >= 1000px
+        1000: {
+          spaceBetween: 18,
+        },
+      }}
+      coverflowEffect={{
+        rotate: 0,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: false,
+      }}
+      modules={[EffectCoverflow, Navigation]}
     >
       {images.map((image, index) => (
         <SwiperSlide key={index}>
@@ -18,8 +40,8 @@ export function ImageSlider({ images }) {
             src={image}
             alt={`Slide ${index}`}
             width="100%"
+            display="block"
             height="100%"
-            objectFit="cover"
           />
         </SwiperSlide>
       ))}
