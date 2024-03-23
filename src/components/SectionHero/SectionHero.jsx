@@ -85,7 +85,8 @@ export function SectionHero() {
           fontSize={{ base: "1.125em", lg: "1.5em" }}
           lineHeight={1.25}
           py={4}
-          px={{ base: "110px", lg: "126px" }}
+          w={{ base: "100%", md: "unset" }}
+          px={{ md: "110px", lg: "126px" }}
           mx={{ base: "auto", lg: "110px" }}
           mt={{ base: "16px", lg: "42px" }}
           borderRadius="15px"
