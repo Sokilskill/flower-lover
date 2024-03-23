@@ -23,6 +23,8 @@ export function ImageSlider({ images }) {
         // when window width is >= 1000px
         1000: {
           spaceBetween: 18,
+          slidesPerView: 4,
+          coverflowEffect: { modifier: 0 },
         },
       }}
       coverflowEffect={{
